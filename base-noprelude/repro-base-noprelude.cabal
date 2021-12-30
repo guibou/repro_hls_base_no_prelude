@@ -1,0 +1,10 @@
+cabal-version:      2.4
+name:               repro-base-noprelude
+version:            0.1.0.0
+author:             Guillaume Bouchard
+maintainer:         guillaum.bouchard@gmail.com
+
+executable repro-base-no-prelude
+    main-is:          Main.hs
+    build-depends:    base-noprelude
+    default-language: Haskell2010
